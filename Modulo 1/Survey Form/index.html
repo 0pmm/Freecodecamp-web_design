@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>Socio Galo</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <h1 id="title">Socio Galo Paulista FC</h1>
+        <p id="description">Programa de socio torcerdor do Paulista Futebol Clube</p>
+        <form method="post" id="survey-form" action='https://register-demo.freecodecamp.org'>
+            <fieldset>
+                <label for="name" id="name-label">Insira seu nome: <input id="name" type="text" required placeholder="Insira seu nome completo" value="1"/></label>
+                <label for="email" id="email-label">Insira seu email: <input id="email" type="email" required value="1" placeholder="Insira seu melhor email"/></label>
+                <label for="number" id="number-label">Insira sua idade: <input id="number" type="number"" min="18" max="120" placeholder="18"</label>
+                <label for="dropdown" id="dropdown-label">Torcedor do Paulista: <select id="dropdown">
+                    <option value="1">(escolha uma opção)</option>
+                    <option value="2">Gerações</option>
+                    <option value="3">Recentemente</option>
+                    </select>
+                </label>
+                <legend>Mora nas região de Jundiaí ou ao seu entorno</legend>
+                    <label for="radio-label"><input type="radio" name="opções" class="inline" checked value="1"/>Sim</label>
+                    <label for="radio-label"><input type="radio" name="opções" class="inline" value="2"/>Não</label>
+                <legend>Acompanha ou já acompanhou jogos no Jayme Cintra</legend>
+                    <label for="checkbox-label"><input type="checkbox" value="1" class="inline"/>Nunca</label>
+                    <label for="checkbox-label"><input type="checkbox" value="2" class="inline"/>Poucas Vezes</label>
+                    <label for="checkbox-label"><input type="checkbox" value="3" class="inline"/>Sempre que posso</label>
+                    <label for="checkbox-label"><input type="checkbox" value="4" class="inline"/>Sempre</label>
+                <label for="textarea-label">Insira oque você quer ver do Paulista no futuro <textarea id="textarea" name="sugestões" rows="3" cols="40" placeholder="Eu gostaria que...""></textarea>
+                <input type="submit" value="Submit" id="submit"/>
+                </fieldset>
+        </form>
+    </body>
+</html>

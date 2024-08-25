@@ -1,0 +1,56 @@
+  body {
+    width: 10eem;
+    height: 10eem;
+    background-image: url(https://www.ultimadivisao.com.br/wp-content/uploads/2024/04/70895805-2637858962918991-5302093631778193408-n.jpg);
+    color: #f5f6f7;
+    background-color: #0000007a;
+    font-family: Tahoma;
+    font-size: 16px;
+    margin: auto;
+  }
+  form {
+    background-color: #0000007a;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: auto;
+    max-width: 500em;
+    min-width: 500em;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input, select, textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, select, textarea{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #000000;
+  }
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  .submite {
+    background-color: #b01313;
+    color: #000000;
+  }
